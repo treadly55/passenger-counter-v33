@@ -8,7 +8,14 @@
 
 
 let imageEl = document.querySelector('.gift-img1')
+let imageEltwo = document.querySelector('.gift-img2')
+
+
+
+
 let clicked = 0
+let clicked2 = 0
+
 
 function present() {
 if (clicked === 0 ) {
@@ -23,6 +30,23 @@ clicked = 2
 }
 }
 
+
+function present2() {
+    if (clicked2 === 0 ) {
+    imageEltwo.style.backgroundImage = 'url("images/badass.gif")'
+    console.log("if called")
+    clicked2 = 2
+    
+    } else if (clicked2 > 1) 
+       { console.log("else called")
+        imageEltwo.style.backgroundImage = 'url("images/gift-cover.jpg")'
+        clicked2 = 0
+    }
+    }
+
+
+
+    
 
 
 
