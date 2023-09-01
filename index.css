@@ -11,9 +11,13 @@ body {
     color: #fff; 
 }
 
+h1 {font-size: 4em;}
+
 h1, h2, h3, h4, p {
     text-shadow: 0 0 1px black;
 }
+
+
 
 #bff-img {
     width: 150px;
@@ -27,6 +31,7 @@ h1, h2, h3, h4, p {
     padding: 5px 10px;
     border-radius: 5px;
     margin: 5px 0 10px 0;
+    font-size: 2em;
 }
 
 #bday-date {
@@ -34,6 +39,7 @@ h1, h2, h3, h4, p {
     background: #010111;
     padding: 5px 10px;
     border-radius: 5px;
+    font-size: 1.8em;
 }
 
 #header {
@@ -48,6 +54,7 @@ h1, h2, h3, h4, p {
 
 .gift-title {
     margin-bottom: 10px;
+    font-size: 2.4em;
 }
 
 .gift-hint {
