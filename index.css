@@ -12,6 +12,7 @@ body {
 }
 
 h1 {font-size: 4em;}
+h3 {font-size: 1.5em; font-style: italic;}
 
 h1, h2, h3, h4, p {
     text-shadow: 0 0 1px black;
@@ -173,9 +174,8 @@ h1, h2, h3, h4, p {
 } */
 
 #footer {
-    font-style: italic;
     width: 400px;
-    margin: 100px auto 20px;
+    margin: 200px auto 20px;
 }
 
 a {
