@@ -9,17 +9,23 @@
 
 let imageEl = document.querySelector('.gift-img1')
 let imageEltwo = document.querySelector('.gift-img2')
+let imageElthree = document.querySelector('.gift-img3')
+let imageElfour = document.querySelector('.gift-img4')
+let imageElfive = document.querySelector('.gift-img5')
 
 
 
 
 let clicked = 0
 let clicked2 = 0
+let clicked3 = 0
+let clicked4 = 0
+let clicked5 = 0
 
 
 function present() {
 if (clicked === 0 ) {
-imageEl.style.backgroundImage = 'url("images/badass.gif")'
+imageEl.style.backgroundImage = 'url("images/drinkgiphy.gif")'
 console.log("if called")
 clicked = 2
 
@@ -33,7 +39,7 @@ clicked = 2
 
 function present2() {
     if (clicked2 === 0 ) {
-    imageEltwo.style.backgroundImage = 'url("images/badass.gif")'
+    imageEltwo.style.backgroundImage = 'url("images/dogs2giphy.gif")'
     console.log("if called")
     clicked2 = 2
     
@@ -45,8 +51,51 @@ function present2() {
     }
 
 
+    function present3() {
+        if (clicked3 === 0 ) {
+        imageElthree.style.backgroundImage = 'url("images/Sportgiphy.gif")'
+        console.log("if called")
+        clicked3 = 2
+        
+        } else if (clicked3 > 1) 
+           { console.log("else called")
+            imageElthree.style.backgroundImage = 'url("images/gift-cover.jpg")'
+            clicked3 = 0
+        }
+        }
 
     
+    function present4() {
+        if (clicked4 === 0 ) {
+        imageElfour.style.backgroundImage = 'url("images/badass.gif")'
+        console.log("if called")
+        clicked4 = 2
+        
+        } else if (clicked4 > 1) 
+           { console.log("else called")
+            imageElfour.style.backgroundImage = 'url("images/gift-cover.jpg")'
+            clicked4 = 0
+        }
+        }
+
+
+
+        function present5() {
+            if (clicked5 === 0 ) {
+            imageElfive.style.backgroundImage = 'url("images/cheers.gif")'
+            console.log("if called")
+            clicked5 = 2
+            
+            } else if (clicked5 > 1) 
+               { console.log("else called")
+                imageElfive.style.backgroundImage = 'url("images/gift-cover.jpg")'
+                clicked5 = 0
+            }
+            }
+    
+
+
+
 
 
 
